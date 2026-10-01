@@ -1,0 +1,18 @@
+# Godot
+.godot/
+*.translation
+
+# Build/salida
+build/
+tools/out/
+
+# Cache de assets descargados (CC0) y dependencias
+tools/assets_cache/
+tools/node_modules/
+tools/geo/.venv/
+tools/geo/out/
+
+# Temporales / sistema
+*.tmp
+.DS_Store
+Thumbs.db

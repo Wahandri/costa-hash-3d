@@ -1,0 +1,22 @@
+{
+  "nuevamalaga": {
+    "name": "Nueva Malaga (Malaga)",
+    "bbox": [36.7170, -4.4520, 36.7295, -4.4350]
+  },
+  "centro": {
+    "name": "Malaga Centro - Puerto - La Malagueta",
+    "bbox": [36.7125, -4.4290, 36.7255, -4.4020]
+  },
+  "pedregalejo": {
+    "name": "Pedregalejo - El Palo",
+    "bbox": [36.7090, -4.3760, 36.7255, -4.3460]
+  },
+  "torremolinos": {
+    "name": "Torremolinos - Playamar",
+    "bbox": [36.6100, -4.5100, 36.6350, -4.4750]
+  },
+  "marbella": {
+    "name": "Marbella Centro - Puerto Banus (orientativo)",
+    "bbox": [36.5000, -4.9000, 36.5200, -4.8600]
+  }
+}

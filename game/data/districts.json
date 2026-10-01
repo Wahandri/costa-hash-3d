@@ -1,0 +1,7 @@
+{
+  "districts": [
+    { "slug": "nuevamalaga", "name": "Nueva Malaga",                "playable": true },
+    { "slug": "centro",      "name": "Malaga Centro - Puerto - La Malagueta", "playable": true },
+    { "slug": "pedregalejo", "name": "Pedregalejo - El Palo",       "playable": true }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Costa Hash 3D",
+  "short_name": "Costa Hash",
+  "description": "Open-world arcade en la Costa del Sol (Nueva Malaga).",
+  "start_url": ".",
+  "scope": ".",
+  "display": "fullscreen",
+  "display_override": ["fullscreen", "standalone"],
+  "orientation": "landscape",
+  "background_color": "#0e1020",
+  "theme_color": "#0e1020",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

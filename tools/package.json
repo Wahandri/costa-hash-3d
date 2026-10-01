@@ -1,0 +1,10 @@
+{
+  "name": "costa3d-tools",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Herramientas de verificacion (smoke test con navegador) para COSTA HASH 3D",
+  "dependencies": {
+    "playwright-core": "^1.48.0"
+  }
+}

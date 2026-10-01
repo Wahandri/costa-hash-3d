@@ -1,0 +1,52 @@
+; COSTA HASH 3D - configuracion del proyecto Godot 4
+; Renderizador Compatibility (WebGL2) obligatorio para export web/movil.
+
+config_version=5
+
+[application]
+
+config/name="Costa Hash 3D"
+config/description="Open-world 3D en la Costa del Sol (Malaga). Low-poly, movil primero."
+run/main_scene="res://game/scenes/main.tscn"
+config/features=PackedStringArray("4.7", "GL Compatibility")
+config/icon="res://icon.svg"
+
+[autoload]
+
+Assets="*res://game/scripts/asset_library.gd"
+Npc="*res://game/scripts/npc_library.gd"
+Terrain="*res://game/scripts/terrain.gd"
+Audio="*res://game/scripts/audio_manager.gd"
+Fx="*res://game/scripts/fx.gd"
+Clock="*res://game/scripts/game_clock.gd"
+Quality="*res://game/scripts/quality_preset.gd"
+SaveManager="*res://game/scripts/save_manager.gd"
+GameState="*res://game/scripts/game_state.gd"
+Wanted="*res://game/scripts/wanted.gd"
+Health="*res://game/scripts/health.gd"
+Economy="*res://game/scripts/economy.gd"
+Missions="*res://game/scripts/missions.gd"
+RoadGraph="*res://game/scripts/road_graph.gd"
+Controls="*res://game/scripts/controls.gd"
+DebugBridge="*res://game/scripts/debug_bridge.gd"
+
+[display]
+
+window/size/viewport_width=1280
+window/size/viewport_height=720
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+window/handheld/orientation=0
+
+[input_devices]
+
+pointing/emulate_mouse_from_touch=false
+pointing/emulate_touch_from_mouse=false
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+textures/vram_compression/import_etc2_astc=true
+lights_and_shadows/directional_shadow/soft_shadow_filter_quality=0
+anti_aliasing/quality/msaa_3d=0

@@ -1,0 +1,45 @@
+{
+  "placa_units": 20,
+  "start_money": 150,
+  "start_posturas": 15,
+  "products": [
+    { "id": "hash",     "name": "Hash",     "buy": 3, "sell": 5,  "heat": 1.0, "rank": 1 },
+    { "id": "costilla", "name": "Costilla", "buy": 4, "sell": 7,  "heat": 1.4, "rank": 3 },
+    { "id": "perico",   "name": "Perico",   "buy": 6, "sell": 11, "heat": 1.9, "rank": 5 }
+  ],
+  "ranks": [
+    { "n": 1, "name": "Chivato",          "xp": 0 },
+    { "n": 2, "name": "Recadero",         "xp": 150 },
+    { "n": 3, "name": "Camello",          "xp": 400 },
+    { "n": 4, "name": "Trapichero",       "xp": 900 },
+    { "n": 5, "name": "Jefe de la Costa", "xp": 1800 },
+    { "n": 6, "name": "Leyenda",          "xp": 3200 }
+  ],
+  "upgrades": [
+    { "id": "labia1",  "name": "Labia I",       "cost": 150,  "desc": "+1 EUR por postura",        "rank": 1 },
+    { "id": "pitillo", "name": "Pitillo liao",  "cost": 250,  "desc": "-30% de calor al vender",   "rank": 2 },
+    { "id": "primillo","name": "Primillo",      "cost": 300,  "desc": "Banda: 0.3 posturas/s",      "rank": 2 },
+    { "id": "labia2",  "name": "Labia II",      "cost": 600,  "desc": "+2 EUR mas por postura",     "rank": 4 },
+    { "id": "vigia",   "name": "Vigia",         "cost": 700,  "desc": "-60% de calor al vender",   "rank": 4 },
+    { "id": "moto",    "name": "Moto del barrio","cost": 1200,"desc": "Banda: 1.0 posturas/s",      "rank": 5 }
+  ],
+  "vehicles": [
+    { "id": "moto",   "name": "Moto antigua",    "cost": 0,    "rank": 1, "type": "moto" },
+    { "id": "car",    "name": "Sedan",           "cost": 900,  "rank": 1, "type": "car" },
+    { "id": "sport",  "name": "Deportivo",       "cost": 1500, "rank": 2, "type": "sport" },
+    { "id": "van",    "name": "Furgoneta",       "cost": 1200, "rank": 2, "type": "van" },
+    { "id": "taxi",   "name": "Taxi",            "cost": 1800, "rank": 2, "type": "taxi" },
+    { "id": "truck",  "name": "Camion",          "cost": 2500, "rank": 3, "type": "truck" },
+    { "id": "luxury", "name": "SUV de lujo",     "cost": 3200, "rank": 3, "type": "luxury" },
+    { "id": "police", "name": "Policia robado",  "cost": 6000, "rank": 4, "type": "police" }
+  ],
+  "dealers": [
+    { "id": "yonki",   "name": "Yonki",   "color": "a9e6a0", "qty": 5, "risk": 0.6, "wait": 26, "w": 5 },
+    { "id": "turista", "name": "Turista", "color": "ffd9a0", "qty": 2, "risk": 1.4, "wait": 17, "w": 4 },
+    { "id": "senora",  "name": "Senora",  "color": "ffc4c4", "qty": 1, "risk": 0.8, "wait": 22, "w": 4 },
+    { "id": "chaval",  "name": "Chaval",  "color": "9fd0ff", "qty": 2, "risk": 1.2, "wait": 16, "w": 4 },
+    { "id": "pijo",    "name": "Pijo",    "color": "cfc4ff", "qty": 3, "risk": 2.0, "wait": 14, "w": 3 },
+    { "id": "guiri",   "name": "Guiri",   "color": "fff0a0", "qty": 2, "risk": 1.6, "wait": 15, "w": 3 },
+    { "id": "macarra", "name": "Macarra", "color": "ffb0b0", "qty": 4, "risk": 2.6, "wait": 11, "w": 2 }
+  ]
+}

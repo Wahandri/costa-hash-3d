@@ -1,0 +1,8 @@
+{
+  "missions": [
+    { "id": "m1", "name": "Bautizo en el barrio", "goal": 12, "desc": "Vende 12 posturas por Nueva Malaga." },
+    { "id": "m2", "name": "Ronda por la Carretera", "goal": 25, "desc": "Coloca 25 posturas por la avenida." },
+    { "id": "m3", "name": "La noche larga", "goal": 40, "desc": "Haz 40 ventas sin que te trinquen." },
+    { "id": "m4", "name": "Boss del barrio", "goal": 60, "desc": "Domina el barrio: 60 ventas." }
+  ]
+}

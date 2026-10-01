@@ -1,0 +1,60 @@
+{
+  "base": "res://game/assets/",
+  "characters": {
+    "mini_male": ["character-male-a", "character-male-b", "character-male-c", "character-male-d", "character-male-e", "character-male-f"],
+    "mini_female": ["character-female-a", "character-female-b", "character-female-c", "character-female-d", "character-female-e", "character-female-f"],
+    "blocky": ["character-a", "character-b", "character-c", "character-d", "character-e", "character-f", "character-g", "character-h", "character-i", "character-j", "character-k", "character-l", "character-m", "character-n", "character-o", "character-p", "character-q", "character-r"]
+  },
+  "vehicles": {
+    "sedan": "sedan",
+    "sedan_sports": "sedan-sports",
+    "hatchback_sports": "hatchback-sports",
+    "suv": "suv",
+    "suv_luxury": "suv-luxury",
+    "van": "van",
+    "truck": "truck",
+    "delivery": "delivery",
+    "taxi": "taxi",
+    "police": "police",
+    "ambulance": "ambulance",
+    "firetruck": "firetruck",
+    "tractor_police": "tractor-police"
+  },
+  "watercraft": {
+    "boat": "boat-fishing-small"
+  },
+  "props": {
+    "streetlight": "city/roads/light-square",
+    "streetlight_curved": "city/roads/light-curved",
+    "streetlight_double": "city/roads/light-curved-double",
+    "traffic_light": "city/roads/traffic-light",
+    "traffic_light_hanging": "city/roads/traffic-light-hanging",
+    "sign_stop": "city/roads/road-sign-stop",
+    "sign_warning": "city/roads/road-sign-object-warning",
+    "sign_street": "city/roads/road-sign-street",
+    "dumpster": "city/roads/dumpster",
+    "cone": "city/roads/construction-cone",
+    "barrier": "city/roads/construction-barrier",
+    "power_pole": "city/roads/electricity-pole",
+    "crossing": "city/roads/road-crossing",
+    "tree_large": "city/suburban/tree-large",
+    "tree_small": "city/suburban/tree-small",
+    "planter": "city/suburban/planter",
+    "fence": "city/suburban/fence",
+    "path_stones": "city/suburban/path-stones-short",
+    "awning": "city/commercial/detail-awning"
+  },
+  "landmarks": {
+    "building": "city/commercial/building-a",
+    "building_alt": "city/commercial/building-c",
+    "skyscraper": "city/commercial/building-skyscraper-a"
+  },
+  "audio": {
+    "footsteps": ["footstep_concrete_000", "footstep_concrete_001", "footstep_concrete_002"],
+    "impact": ["impactMetal_heavy_000", "impactMetal_heavy_001"],
+    "click": ["click_001", "click_002"],
+    "confirm": "confirmation_001",
+    "error": "error_004",
+    "jingles": ["jingle_01", "jingle_02", "jingle_03", "jingle_04"]
+  }
+}
